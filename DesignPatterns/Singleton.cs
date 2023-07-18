@@ -2,7 +2,7 @@
 
 namespace DesignPatterns
 {
-    public class Singleton
+    public sealed class Singleton
     {
         private static int counter = 0;
         private static Singleton instance = null;
@@ -27,9 +27,9 @@ namespace DesignPatterns
             Console.WriteLine(message);
         }
 
-        public class DerivedSingleton : Singleton
-        {
+        //public class DerivedSingleton : Singleton
+        //{
 
-        }
+        //}
     }
 }

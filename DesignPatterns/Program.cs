@@ -14,8 +14,8 @@ namespace DesignPatterns
 
             Console.WriteLine("--------------------------------");
 
-            Singleton.DerivedSingleton derivedSingleton = new Singleton.DerivedSingleton();
-            derivedSingleton.PrintDetails("Called from derived class");
+            //Singleton.DerivedSingleton derivedSingleton = new Singleton.DerivedSingleton();
+            //derivedSingleton.PrintDetails("Called from derived class");
 
             Console.ReadLine();
         }
