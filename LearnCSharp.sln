@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnCSharp", "LearnCSharp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{AECF7295-DDD1-43BC-B3BC-DC267EE2C64C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionExample", "DependencyInjectionExample\DependencyInjectionExample.csproj", "{DABDFA9E-869E-4BF4-896A-DBFA1401BCCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AECF7295-DDD1-43BC-B3BC-DC267EE2C64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AECF7295-DDD1-43BC-B3BC-DC267EE2C64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AECF7295-DDD1-43BC-B3BC-DC267EE2C64C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DABDFA9E-869E-4BF4-896A-DBFA1401BCCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DABDFA9E-869E-4BF4-896A-DBFA1401BCCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DABDFA9E-869E-4BF4-896A-DBFA1401BCCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DABDFA9E-869E-4BF4-896A-DBFA1401BCCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

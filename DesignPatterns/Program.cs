@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.SqlClient;
 
 namespace DesignPatterns
 {
@@ -6,16 +7,15 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            Singleton fromEmployee = Singleton.GetInstance;
-            fromEmployee.PrintDetails("From Employee");
+            using (SqlConnection conn = new SqlConnection())
+            {
+                conn.ConnectionString = "Server=DILIP-PC;Database=School;Trusted_Connection=true";
+                // using the code here...
 
-            Singleton fromStudent = Singleton.GetInstance;
-            fromStudent.PrintDetails("From Student");
+                
 
-            Console.WriteLine("--------------------------------");
 
-            //Singleton.DerivedSingleton derivedSingleton = new Singleton.DerivedSingleton();
-            //derivedSingleton.PrintDetails("Called from derived class");
+            }
 
             Console.ReadLine();
         }
