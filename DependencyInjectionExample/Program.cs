@@ -10,68 +10,25 @@ namespace DependencyInjectionExample
     {
         static void Main(string[] args)
         {
-            SwitchService ACS = new SwitchService(new ACService());
-            ACS.ON();
-            ACS.OFF();
+            //DependencyInjection ACS = new DependencyInjection(new ACService());
+            //ACS.ON();
+            //ACS.OFF();
 
-            SwitchService TVS = new SwitchService(new TVService());
-            TVS.ON();
-            TVS.OFF();
+            //DependencyInjection TVS = new DependencyInjection(new TVService());
+            //TVS.ON();
+            //TVS.OFF();
+
+            string input = "Debugging???";
+
+            //Console.WriteLine(RemoveSpecialChars.RemoveSpecialCharacters(input));
+            //Console.WriteLine(RemoveSpecialChars.RemoveSplChars(input));
+
 
             Console.ReadKey();
         }
+
+        
     }
 
-    public interface ISwitch
-    {
-        void ON();
-        void OFF();
-    }
-
-    // Service Class
-    public class ACService : ISwitch
-    {
-        public void ON()
-        {
-            Console.WriteLine("AC ON Method");
-        }
-        public void OFF()
-        {
-            Console.WriteLine("AC OFF Method");
-        }
-    }
-
-    // Service Class
-    public class TVService : ISwitch
-    {
-        public void ON()
-        {
-            Console.WriteLine("TV ON Method");
-        }
-        public void OFF()
-        {
-            Console.WriteLine("TV OFF Method");
-        }
-    }
-
-    // Client Class
-    public class SwitchService
-    {
-        private ISwitch iSwitch;
-
-        public SwitchService(ISwitch _iSwitch)
-        {
-            iSwitch = _iSwitch;
-        }
-
-        public void ON()
-        {
-            iSwitch.ON();
-        }
-        public void OFF()
-        {
-            iSwitch.OFF();
-        }
-
-    }
+    
 }

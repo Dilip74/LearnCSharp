@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionExample", "DependencyInjectionExample\DependencyInjectionExample.csproj", "{DABDFA9E-869E-4BF4-896A-DBFA1401BCCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingTrac", "WingTracIntegration\WingTrac.csproj", "{DFD45D3A-7FCE-4CC4-BE01-9E16560CCF6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DABDFA9E-869E-4BF4-896A-DBFA1401BCCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DABDFA9E-869E-4BF4-896A-DBFA1401BCCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DABDFA9E-869E-4BF4-896A-DBFA1401BCCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD45D3A-7FCE-4CC4-BE01-9E16560CCF6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD45D3A-7FCE-4CC4-BE01-9E16560CCF6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD45D3A-7FCE-4CC4-BE01-9E16560CCF6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD45D3A-7FCE-4CC4-BE01-9E16560CCF6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
