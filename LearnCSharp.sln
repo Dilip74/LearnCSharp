@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.1525
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnCSharp", "LearnCSharp\LearnCSharp.csproj", "{449223B4-A6FB-4A76-AAF6-66FFCAEF8F0E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5DB502B6-C243-4668-8F29-3CAB26878313} = {5DB502B6-C243-4668-8F29-3CAB26878313}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{AECF7295-DDD1-43BC-B3BC-DC267EE2C64C}"
 EndProject
@@ -12,6 +15,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingTrac", "WingTracIntegration\WingTrac.csproj", "{DFD45D3A-7FCE-4CC4-BE01-9E16560CCF6E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTesting", "UnitTesting\UnitTesting.csproj", "{5CC381C3-698C-4E68-93DE-2E1F98E08662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService1", "WcfService1\WcfService1.csproj", "{5DB502B6-C243-4668-8F29-3CAB26878313}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +44,10 @@ Global
 		{5CC381C3-698C-4E68-93DE-2E1F98E08662}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CC381C3-698C-4E68-93DE-2E1F98E08662}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CC381C3-698C-4E68-93DE-2E1F98E08662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB502B6-C243-4668-8F29-3CAB26878313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB502B6-C243-4668-8F29-3CAB26878313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB502B6-C243-4668-8F29-3CAB26878313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB502B6-C243-4668-8F29-3CAB26878313}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
