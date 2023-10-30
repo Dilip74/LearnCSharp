@@ -76,10 +76,10 @@ namespace WingTrac
 				{
 					return;
 				}
-                DataSet dsMvmtParameters = new DataSet();
-                //using (DataSet dsMvmtParameters = ExtensionMethods.clsDal.GetDataset(ConditionalOperator: 4, XmlData: null, ProcName: FcProcedureName.uspWingTracProcess))
-                //{
-                if (!dsMvmtParameters.IsDsEmpty(0))
+				DataSet dsMvmtParameters = new DataSet();
+				//using (DataSet dsMvmtParameters = ExtensionMethods.clsDal.GetDataset(ConditionalOperator: 4, XmlData: null, ProcName: FcProcedureName.uspWingTracProcess))
+				//{
+				if (!dsMvmtParameters.IsDsEmpty(0))
 					{
 						var lstFlightDates = dsMvmtParameters.Tables[0].AsEnumerable()
 									.Select(r => new { FlightNumber = r.Field<string>("FlightNumber"), ReleaseDate = r.Field<DateTime>("ReleaseDate") })
