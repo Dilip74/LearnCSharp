@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DependencyInjectionExample
+﻿namespace DependencyInjectionExample
 {
     class SOLIDPrinciples
     {

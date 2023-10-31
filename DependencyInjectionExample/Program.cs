@@ -1,8 +1,4 @@
-﻿using DependencyInjectionExample.Implementation;
-using DependencyInjectionExample.Interface;
-using DependencyInjectionExample.OpenClose;
-using System;
-using System.Collections.Generic;
+﻿using System;
 
 namespace DependencyInjectionExample
 {
