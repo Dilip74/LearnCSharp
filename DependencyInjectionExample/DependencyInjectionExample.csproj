@@ -43,7 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client\CannonMG.cs" />
+    <Compile Include="Client\HPLaserJet.cs" />
     <Compile Include="DependencyInjection.cs" />
+    <Compile Include="Implementation\ContractEmployee.cs" />
+    <Compile Include="Implementation\PermanentEmployee.cs" />
+    <Compile Include="Implementation\TemporaryEmployee.cs" />
+    <Compile Include="Interface\IEmployee.cs" />
+    <Compile Include="Interface\IEmployeeBonus.cs" />
+    <Compile Include="IPrintTasks.cs" />
+    <Compile Include="IUser.cs" />
+    <Compile Include="OpenClose\Employee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemoveSpecialChars.cs" />
