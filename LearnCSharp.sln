@@ -38,6 +38,10 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebForms", "WebForms\", "{1
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithmeticOperations", "ArithmeticOperations\ArithmeticOperations.csproj", "{09F1924C-651A-4202-BB0F-51CA02D9F8FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTesting", "NUnitTesting\NUnitTesting.csproj", "{99BA0705-85CB-4DD5-B5DF-6D0213CBB8E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +72,14 @@ Global
 		{1911D6F8-06CC-445B-89AF-B37EE6DCA1A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1911D6F8-06CC-445B-89AF-B37EE6DCA1A1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{1911D6F8-06CC-445B-89AF-B37EE6DCA1A1}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{09F1924C-651A-4202-BB0F-51CA02D9F8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F1924C-651A-4202-BB0F-51CA02D9F8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F1924C-651A-4202-BB0F-51CA02D9F8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F1924C-651A-4202-BB0F-51CA02D9F8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99BA0705-85CB-4DD5-B5DF-6D0213CBB8E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99BA0705-85CB-4DD5-B5DF-6D0213CBB8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99BA0705-85CB-4DD5-B5DF-6D0213CBB8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99BA0705-85CB-4DD5-B5DF-6D0213CBB8E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
