@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ArithmeticOperations
 {
@@ -26,6 +22,12 @@ namespace ArithmeticOperations
         public int Div(int i, int j)
         {
             return i / j;
+        }
+
+
+        public virtual bool CheckDigitsOnly()
+        {
+            return false;
         }
     }
 }
