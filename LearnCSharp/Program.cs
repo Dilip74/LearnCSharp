@@ -28,12 +28,6 @@ namespace LearnCSharp
             Console.WriteLine("Called some method");
         }
 
-        public static void getData()
-        {
-            ServiceReference1.Service1Client service = new ServiceReference1.Service1Client();
-            
-
-            Console.WriteLine(service.GetData(5));
-        }
+        
     }
 }
