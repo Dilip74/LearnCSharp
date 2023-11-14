@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using Microsoft.VisualBasic;
 
 namespace WindowsFormsApp1
 {
@@ -27,7 +26,6 @@ namespace WindowsFormsApp1
             label2.Text = Environment.OSVersion.Platform.ToString();
             label3.Text = Environment.MachineName.ToString();
             label4.Text = Environment.ProcessorCount.ToString();
-
             
             //ulong ram = new Microsoft.VisualBasic.Devices.ComputerInfo().TotalPhysicalMemory;
         }
