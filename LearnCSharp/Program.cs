@@ -19,14 +19,33 @@ namespace LearnCSharp
             //SomeMethodPtr del = new SomeMethodPtr(SomeMethod);
             //del.Invoke(a, b);
 
-            Animal a = new Animal();
-            Dog d = new Dog();
-            a.Sound();
-            d.Sound();
-            a = d;
-            a.Sound();
+            //Animal a = new Animal();
+            //Dog d = new Dog();
+            //a.Sound();
+            //d.Sound();
+            //a = d;
+            //a.Sound();
 
-            Console.WriteLine();
+            //Console.WriteLine();
+
+            //string str = "100";
+
+            //if (str.IsNumeric())
+            //    Console.WriteLine("The string object named str contains numeric value.");
+
+            //int n = 2;
+
+            //if (n.IsEven())
+            //    Console.WriteLine("The value of the integer is even.");
+
+            //FleetController fc = new FleetController();
+            //fc.FirstMethod();
+            //fc.SecondMethod();
+
+            Test test = new Test();
+            test.FirstMethod();
+            test.SecondMethod();
+
 
             Console.ReadKey();
         } 
@@ -37,6 +56,22 @@ namespace LearnCSharp
         }
 
         
+        
+    }
+
+    
+    public class Test:FleetController
+    {
+        
+    }
+
+
+    public static class IntegerExtensions
+    {
+        public static bool IsEven(this int i)
+        {
+            return ((i % 2) == 0);
+        }
     }
 
     public class Animal
