@@ -74,6 +74,7 @@
   <ItemGroup>
     <Compile Include="ArithmeticTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tester.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

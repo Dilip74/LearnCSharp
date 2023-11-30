@@ -21,7 +21,7 @@ namespace DependencyInjectionExample
             iSwitch.OFF();
         }
     }
-
+    
     public interface ISwitch
     {
         void ON();

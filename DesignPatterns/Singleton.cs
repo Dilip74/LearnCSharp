@@ -35,10 +35,5 @@ namespace DesignPatterns
         {
             Console.WriteLine(message);
         }
-
-        //public class DerivedSingleton : Singleton
-        //{
-
-        //}
     }
 }

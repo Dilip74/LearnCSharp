@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace LearnCSharp
 {
@@ -42,10 +44,38 @@ namespace LearnCSharp
             //fc.FirstMethod();
             //fc.SecondMethod();
 
-            Test test = new Test();
-            test.FirstMethod();
-            test.SecondMethod();
+            //Test test = new Test();
+            //test.FirstMethod();
+            //test.SecondMethod();
 
+
+            List<string> list = new List<string>();
+            list.Add("1");
+            list.Add("2");
+
+            ArrayList arrList = new ArrayList();
+            arrList.Add("1");
+            arrList.Add("2");
+            arrList.Add(3);
+
+            //foreach (var item in list)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //foreach (var item in arrList)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            int[] intList = new int[4];
+            intList[0] = 11;
+            intList[1] = 31;
+
+            foreach (var item in intList)
+            {
+                Console.WriteLine(item);
+            }
 
             Console.ReadKey();
         } 
